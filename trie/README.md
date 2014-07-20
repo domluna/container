@@ -7,7 +7,7 @@ Trie data structure
 
 ```go
 
-import trie "github.com/domluna/trie-go"
+import "github.com/domluna/container/trie"
 
 func main() {
   t := trie.New()
@@ -17,4 +17,4 @@ func main() {
 }
 ```
 
-View the [docs](https://godoc.org/github.com/domluna/trie-go)
+View the [docs](https://godoc.org/github.com/domluna/container/trie)
