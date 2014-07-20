@@ -1,4 +1,4 @@
-datastructs-go
-==============
+container
+=========
 
 Data Structures in Go.
