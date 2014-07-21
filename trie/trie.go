@@ -44,3 +44,13 @@ func (t *Trie) Get(key string) (interface{}, bool) {
 	}
 	return t.value, true
 }
+
+// Remove removes the string from the trie.
+func (t *Trie) Remove(key string)  {
+	t = search(t, key)
+	if t.value == nil {
+		return
+	}
+	t.value = nil
+	return
+}
