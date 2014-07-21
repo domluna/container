@@ -7,3 +7,4 @@ Contains:
   * queue
   * stack
   * trie
+  * LRU cache
