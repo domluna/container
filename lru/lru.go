@@ -66,8 +66,8 @@ func (c *Cache) Get(key string) (interface{}, bool) {
 	return nil, false
 }
 
-// RemoveOldest deletes the least recently used element in the cache.
-func (c *Cache) RemoveOldest() {
+// removeOldest deletes the least recently used element in the cache.
+func (c *Cache) removeOldest() {
 	c.lock.Lock()
 	defer c.lock.Unlock()
 	c.remove()
