@@ -1,13 +1,15 @@
 lru
 ----
 
+View the [docs](https://godoc.org/github.com/domluna/container/lru)
+
 ### Installation
 
 ```sh
 $ go get github.com/domluna/container/lru
 ```
 
-### Usage
+### Example
 
 ```go
 package main
@@ -26,3 +28,4 @@ func main() {
 }
 
 ```
+

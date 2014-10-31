@@ -1,9 +1,15 @@
 Trie
 ====
 
-Trie data structure
+View the [docs](https://godoc.org/github.com/domluna/container/trie)
 
-## Example
+### Installation
+
+```sh
+$ go get github.com/domluna/container/lru
+```
+
+### Example
 
 ```go
 
@@ -17,4 +23,3 @@ func main() {
 }
 ```
 
-View the [docs](https://godoc.org/github.com/domluna/container/trie)
