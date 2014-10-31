@@ -19,8 +19,12 @@ import (
 
 func main() {
   q := queue.New()
-  q.Push(22)
-  v := t.Pop() // v = 22
+  q.Push(1)
+  q.Push(2)
+  q.Push(3)
+  v := t.Pop() // v = 1
+  v := t.Pop() // v = 2
+  v := t.Pop() // v = 3
   v := t.Pop() // v = nil
 }
 
