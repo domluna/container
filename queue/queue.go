@@ -14,11 +14,12 @@ func New() *Queue {
 	}
 }
 
-// 
+// Push inserts an element into the queue.
 func (q *Queue) Push(v interface{}) {
 	q.list.PushBack(v)
 }
 
+// Pop removes the element at the front of the queue.
 func (q *Queue) Pop() interface{} {
 	e := q.list.Front()
 	if e != nil {
